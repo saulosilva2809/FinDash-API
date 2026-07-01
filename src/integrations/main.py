@@ -1,5 +1,5 @@
 from excel.formater_json import pretty_json
-from excel.repositories.kpis_repository import KpisRepository
+from excel.repositories.commercials_repository import CommercialsRepository
 
 
-pretty_json(KpisRepository().response())
+pretty_json(CommercialsRepository().response())
